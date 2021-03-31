@@ -28,8 +28,8 @@ num_players = len(options)
 ##
 
 def send_msg(num, msg):
-	account_sid = 'ACf884c0e9acf95f10f5a51c79f32fe0e6' 
-	auth_token = '0f731632d3bf2b0214d0bf98f6942152' 
+	account_sid = 'xxx' 
+	auth_token = 'xxx' 
 	client = Client(account_sid, auth_token) 
 	message = client.messages.create(  
 							  messaging_service_sid='MG347b801342b448b3d10159442201127f', 
